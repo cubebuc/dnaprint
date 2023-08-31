@@ -8,11 +8,21 @@ import
     RouterProvider
 } from 'react-router-dom';
 import App from './App';
+import TiskovinyPage from './pages/TiskovinyPage';
+import TiskarnaPage from './pages/TiskarnaPage';
 
 const router = createBrowserRouter([
     {
         path: '/',
         element: <App />
+    },
+    {
+        path: '/tiskoviny',
+        element: <TiskovinyPage />
+    },
+    {
+        path: '/tiskarna',
+        element: <TiskarnaPage />
     }
 ]);
 

@@ -5,7 +5,7 @@ function Section({ color, image, title, subtitle, text })
     return (
         <div className='Section ms-5 p-5 text-center text-light'>
             <div className='row m-auto'>
-                <div className="col-8">
+                <div className='col-8'>
                     <img className={`${color}`} src={image} alt='' />
                 </div>
                 <div className='col-3 d-flex flex-column text-start'>
