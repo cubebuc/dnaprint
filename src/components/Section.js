@@ -11,7 +11,7 @@ function Section({ color, image, title, subtitle, text })
                 <div className='col-3 d-flex flex-column text-start'>
                     <Title color={`${color}`} text={`${title}`} scale={1.5} />
                     <h2 className='lead mb-4 fs-4'>{subtitle}</h2>
-                    <p className="lead mt-2 text-light fs-6">{text}</p>
+                    <p className='lead mt-2 text-light fs-6'>{text}</p>
                 </div>
             </div>
         </div>

@@ -2,6 +2,7 @@ import Header from './components/Header';
 import Title from './components/Title';
 import Navbar from './components/Navbar';
 import Section from './components/Section';
+import Footer from './components/Footer';
 
 const fotoText = <>
     Firemní fotografie, rodinná<br />
@@ -67,6 +68,7 @@ function App()
             <Section color='danger' image={require('./resources/sec_redakce.webp')} title='redakce' subtitle='Nabízíme práce korektora' text={redakceText} />
             <Section color='warning' image={require('./resources/sec_tisk.webp')} title='tisk' subtitle='Nabízíme tiskové služby' text={tiskText} />
             <Section color='secondary' image={require('./resources/sec_reklama.webp')} title='reklama' subtitle='Nabízíme reklamní služby' text={reklamaText} />
+            <Footer />
         </div>
     );
 }
