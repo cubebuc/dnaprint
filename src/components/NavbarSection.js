@@ -1,14 +1,16 @@
+import { HashLink } from 'react-router-hash-link';
+
 import Title from './Title';
 
 function NavbarSection({ color, image, text })
 {
     return (
-        <div className='NavbarSection d-inline-flex justify-content-center'>
+        <HashLink className='NavbarSection d-inline-flex justify-content-center text-decoration-none' to={`/#/${text}`}>
             <img className={`${color} mx-2`} src={image} alt='' />
             <div className='z-1 position-absolute d-flex justify-content-center align-items-center' >
                 <Title color={color} text={text} />
             </div>
-        </div>
+        </HashLink>
     );
 }
 
