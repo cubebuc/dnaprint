@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dnaprint/static/css/main.24fb5143.css",
-    "main.js": "/dnaprint/static/js/main.1aac4600.js",
+    "main.js": "/dnaprint/static/js/main.4d190597.js",
     "static/media/sec_tisk.webp": "/dnaprint/static/media/sec_tisk.97f54e60815a5f170070.webp",
     "static/media/sec_grafika.webp": "/dnaprint/static/media/sec_grafika.a730ee70d3b0e54b45a4.webp",
     "static/media/sec_reklama.webp": "/dnaprint/static/media/sec_reklama.03fa80785d0f3e50d30d.webp",
@@ -15,10 +15,10 @@
     "static/media/nav_redakce.webp": "/dnaprint/static/media/nav_redakce.92e067d5a181c28c703b.webp",
     "index.html": "/dnaprint/index.html",
     "main.24fb5143.css.map": "/dnaprint/static/css/main.24fb5143.css.map",
-    "main.1aac4600.js.map": "/dnaprint/static/js/main.1aac4600.js.map"
+    "main.4d190597.js.map": "/dnaprint/static/js/main.4d190597.js.map"
   },
   "entrypoints": [
     "static/css/main.24fb5143.css",
-    "static/js/main.1aac4600.js"
+    "static/js/main.4d190597.js"
   ]
 }
