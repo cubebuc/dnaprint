@@ -22,7 +22,7 @@ function App()
             <TransitionGroup component={null}>
                 <CSSTransition key={location.pathname} classNames='fade' timeout={400}>
                     <Routes location={location}>
-                        <Route path='/' element={<HomePage />} />
+                        <Route path='/dnaprint' element={<HomePage />} />
                         <Route path='/tiskoviny' element={<TiskovinyPage />} />
                         <Route path='/tiskarna' element={<TiskarnaPage />} />
                     </Routes>
