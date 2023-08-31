@@ -54,7 +54,7 @@ function HomePage()
     return (
         <MainLayout>
             <div className='overview container-fluid my-4 text-center'>
-                <Link to='/tiskarna'>
+                <Link to='./tiskarna'>
                     <Title color='warning' text='tiskárna' />
                 </Link>
                 <p className='lead text-light m-0 mb-4'>
@@ -62,11 +62,11 @@ function HomePage()
                     jak vyrobit a upravit tiskovinu. Svěřte doporučení a výrobu do našich rukou<br />
                     nebo si ji 'nastavte' na míru.
                 </p>
-                <Link to='/tiskoviny'>
+                <Link to='./tiskoviny'>
                     <Title color='warning' text='specifikace tiskovin' scale={.5} />
                 </Link>
                 <div />
-                <Link to='/tiskarna'>
+                <Link to='./tiskarna'>
                     <Title color='warning' text='vybavení tiskárny' scale={.5} />
                 </Link>
             </div>
