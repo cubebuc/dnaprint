@@ -2,6 +2,7 @@ html, body, #root, .App {
     width: 100%;
     height: 100%;
     letter-spacing: 0.1rem;
+    background-color: black;
 }
 
 .text-large {
@@ -9,7 +10,7 @@ html, body, #root, .App {
 }
 
 .Header {
-    height: 10%;
+    height: 6em;
 }
 
 .divider {
@@ -55,12 +56,13 @@ img.secondary {
 
 .NavbarSection>div {
     width: 250px;
+    height: 70px;
     background-color: #474747;
-    margin-top: 195px;
+    margin-top: 210px;
 }
 
 .NavbarSection:nth-child(2n)>div {
-    margin-top: 55px;
+    margin-top: 60px;
 }
 
 .NavbarSection:
