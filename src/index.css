@@ -62,8 +62,38 @@ img.secondary {
     height: 70px;
     background-color: #474747;
     margin-top: 210px;
+    transition: 0.2s;
 }
 
 .NavbarSection:nth-child(2n)>div {
     margin-top: 60px;
+}
+
+.NavbarSection>img {
+    transition: 0.2s;
+}
+
+.NavbarSection:hover>img {
+    transform: scale(.95) rotate(1deg);
+}
+
+.NavbarSection:hover>div {
+    transform: scale(1.05) rotate(-1deg);
+    transition: 0.2s;
+}
+
+.overview .Title {
+    transition: 0.2s;
+}
+
+.overview .Title:hover {
+    transform: scale(1.05);
+}
+
+.Header .display-2 {
+    transition: 0.2s;
+}
+
+.Header .display-2:hover {
+    transform: scale(1.02);
 }

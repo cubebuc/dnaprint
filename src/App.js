@@ -54,7 +54,7 @@ function App()
     return (
         <div className='App'>
             <MainLayout>
-                <div className='container-fluid my-4 text-center'>
+                <div className='overview container-fluid my-4 text-center'>
                     <Link to='/tiskarna'>
                         <Title color='warning' text='tiskárna' />
                     </Link>
