@@ -1,34 +1,37 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
+import './transitions.css';
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import 
-{
-    createBrowserRouter,
-    RouterProvider
-} from 'react-router-dom';
-import App from './App';
+import { render } from 'react-dom';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { TransitionGroup, CSSTransition } from 'react-transition-group';
+
+import HomePage from './pages/HomePage';
 import TiskovinyPage from './pages/TiskovinyPage';
 import TiskarnaPage from './pages/TiskarnaPage';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
-const router = createBrowserRouter([
-    {
-        path: '/',
-        element: <App />
-    },
-    {
-        path: '/tiskoviny',
-        element: <TiskovinyPage />
-    },
-    {
-        path: '/tiskarna',
-        element: <TiskarnaPage />
-    }
-]);
+function App()
+{
+    const location = useLocation();
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-    <React.StrictMode>
-        <RouterProvider router={router} />
-    </React.StrictMode>
-);
+    return (
+        <div>
+            <Header />
+            <TransitionGroup component={null}>
+                <CSSTransition key={location.pathname} classNames='fade' timeout={400}>
+                    <Routes location={location}>
+                        <Route path='/' element={<HomePage />} />
+                        <Route path='/tiskoviny' element={<TiskovinyPage />} />
+                        <Route path='/tiskarna' element={<TiskarnaPage />} />
+                    </Routes>
+                </CSSTransition>
+            </TransitionGroup>
+            <Footer />
+        </div>
+    );
+}
+
+const Root = () => <BrowserRouter><App /></BrowserRouter>;
+render(<Root />, document.getElementById('root'));

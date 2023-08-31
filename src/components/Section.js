@@ -3,7 +3,7 @@ import Title from './Title';
 function Section({ color, image, title, subtitle, text })
 {
     return (
-        <div className='Section ms-5 p-5 text-center text-light' id={`/${title}`}>
+        <div className='Section ms-5 p-5 text-center text-light' id={`${title}`}>
             <div className='row m-auto'>
                 <div className='col-8'>
                     <img className={color} src={image} alt='' />

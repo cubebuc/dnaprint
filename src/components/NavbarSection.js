@@ -5,7 +5,7 @@ import Title from './Title';
 function NavbarSection({ color, image, text })
 {
     return (
-        <HashLink className='NavbarSection d-inline-flex justify-content-center text-decoration-none' to={`/#/${text}`}>
+        <HashLink className='NavbarSection d-inline-flex justify-content-center text-decoration-none' smooth to={`/#${text}`}>
             <img className={`${color} mx-2`} src={image} alt='' />
             <div className='z-1 position-absolute d-flex justify-content-center align-items-center' >
                 <Title color={color} text={text} />
@@ -14,4 +14,4 @@ function NavbarSection({ color, image, text })
     );
 }
 
-export default NavbarSection;;
+export default NavbarSection;
