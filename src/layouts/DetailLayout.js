@@ -17,7 +17,7 @@ function DetailLayout({ children })
 
     return (
         <MainLayout>
-            <div className='DetailLayout container ps-5 my-5'>
+            <div className='DetailLayout container p-xl-0 p-5 ps-xl-5 my-5'>
                 <div className='row'>
                     {isDesktop &&
                         <div className='col-3'>
