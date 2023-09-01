@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 function Header()
 {
     return (
-        <div className='Header d-flex text-center justify-content-center align-items-end text-light'>
+        <div className='Header d-flex justify-content-center align-items-end text-light'>
             <Link to='/dnaprint' className='text-decoration-none text-light'>
                 <h1 className='display-2 me-4 pe-2'>/dnaprint</h1>
             </Link>

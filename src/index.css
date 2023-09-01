@@ -6,7 +6,6 @@
 }
 
 html, #root {
-    width: 100%;
     letter-spacing: 0.1rem;
     background-color: black;
 }
@@ -38,10 +37,6 @@ html, #root {
 
 .Title>h1:first-child {
     font-size: 3.5em;
-}
-
-.NavbarSection {
-    height: 338px;
 }
 
 img {
