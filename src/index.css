@@ -88,3 +88,11 @@ img {
 .Header .display-2:hover {
     transform: scale(1.02);
 }
+
+.arrow {
+    transition: 0.2s;
+}
+
+.arrow:hover {
+    transform: translateY(-5px);
+}

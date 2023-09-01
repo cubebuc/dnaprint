@@ -15,8 +15,8 @@ function Section({ color, title, subtitle, text })
                     <h2 className='lead mb-4 fs-3'>{subtitle}</h2>
                     <p className='lead mt-2 text-light fs-5'>{text}</p>
 
-                    <HashLink className='mt-5 align-self-start' smooth to={`./#`}>
-                        <img src={require('../resources/arrow.png')} width={85} height={85} alt='' style={{ filter: 'invert(.3)' }} />
+                    <HashLink className='arrow mt-5 align-self-start' smooth to={`./#`}>
+                        <img src={require('../resources/arrow.png')} width={75} alt='' />
                     </HashLink>
                 </div>
             </div>
