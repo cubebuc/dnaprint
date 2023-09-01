@@ -53,7 +53,7 @@ function HomePage()
 {
     return (
         <MainLayout>
-            <div className='overview container-fluid my-4 pt-xl-0 pt-4 text-center'>
+            <div className='overview container-fluid my-5 pt-xl-0 pt-4 text-center'>
                 <Link to='./tiskarna'>
                     <Title color='warning' text='tiskárna' />
                 </Link>

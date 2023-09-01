@@ -91,6 +91,12 @@ img {
     transform: translateY(-5px);
 }
 
+@media only screen and (max-width: 1650px) and (min-width: 1200px) {
+    .Section>div>div>img {
+        width: 83%;
+    }
+}
+
 @media only screen and (min-width: 1200px) {
     .NavbarSection>div {
         position: absolute;
@@ -108,6 +114,10 @@ img {
 
     .NavbarSection>div {
         margin: 10px;
+    }
+
+    .section-content {
+        padding-left: 15vw;
     }
 }
 
