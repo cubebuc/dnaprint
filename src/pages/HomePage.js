@@ -25,9 +25,8 @@ const grafikaText = <>
 
 const redakceText = <>
     Specializujeme se na korektury<br />
-    českého jazyka. Blízce<br />
-    spolupracujeme s<br />
-    renomovanými čtenáři. Dále<br />
+    českého jazyka. Spolupracujeme<br />
+    s renomovanými češtináři. Dále<br />
     spolupracujeme s překladateli<br />
     a korektory daného jazyka.</>;
 
