@@ -53,13 +53,13 @@ function HomePage()
 {
     return (
         <MainLayout>
-            <div className='overview container-fluid my-4 text-center'>
+            <div className='overview container-fluid my-4 pt-xl-0 pt-4 text-center'>
                 <Link to='./tiskarna'>
                     <Title color='warning' text='tiskárna' />
                 </Link>
-                <p className='lead text-light m-0 mb-4'>
-                    Profesionální přístup, vybavení, skvělé termíny i ceny. Je mnoho variant,<br />
-                    jak vyrobit a upravit tiskovinu. Svěřte doporučení a výrobu do našich rukou<br />
+                <p className='lead m-auto mb-4 text-light'>
+                    Profesionální přístup, vybavení, skvělé termíny i ceny. Je mnoho variant,
+                    jak vyrobit a upravit tiskovinu. Svěřte doporučení a výrobu do našich rukou
                     nebo si ji 'nastavte' na míru.
                 </p>
                 <Link to='./tiskoviny'>

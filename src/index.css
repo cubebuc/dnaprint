@@ -11,7 +11,7 @@ html, #root {
 }
 
 .text-large {
-    font-size: 4rem;
+    font-size: 4.5em;
 }
 
 .Header {
@@ -48,11 +48,7 @@ img {
     height: 70px;
     background-color: #474747;
     margin-top: 210px;
-    transition: 0.2s;
-}
-
-.NavbarSection:nth-child(2n)>div {
-    margin-top: 60px;
+    transition: transform 0.2s;
 }
 
 .NavbarSection>img {
@@ -65,7 +61,6 @@ img {
 
 .NavbarSection:hover>div {
     transform: scale(1.05) rotate(-1deg);
-    transition: 0.2s;
 }
 
 .overview .Title {
@@ -74,6 +69,10 @@ img {
 
 .overview .Title:hover {
     transform: scale(1.05);
+}
+
+.overview>p {
+    max-width: 800px;
 }
 
 .Header .display-2 {
@@ -90,4 +89,34 @@ img {
 
 .arrow:hover {
     transform: translateY(-5px);
+}
+
+@media only screen and (min-width: 1200px) {
+    .NavbarSection>div {
+        position: absolute;
+    }
+
+    .NavbarSection:nth-child(2n)>div {
+        margin-top: 60px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .Navbar {
+        max-width: 1000px;
+    }
+
+    .NavbarSection>div {
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .NavbarSection:nth-child(2n)>div {
+        margin-left: 100px;
+    }
+
+    .NavbarSection:nth-child(2n+1)>div {
+        margin-right: 100px;
+    }
 }
