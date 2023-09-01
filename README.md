@@ -29,3 +29,7 @@ npm start
 ## TODO
 
 - [ ] Responsive design
+
+## License
+
+This project is licensed under the Creative Commons Zero v1.0 Universal License - see the [LICENSE.md](LICENSE.md) file for details
