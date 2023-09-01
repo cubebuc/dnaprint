@@ -35,5 +35,5 @@ function App()
     );
 }
 
-const Root = () => <BrowserRouter><App /></BrowserRouter>;
+const Root = () => <BrowserRouter basename={process.env.PUBLIC_URL}><App /></BrowserRouter>;
 render(<Root />, document.getElementById('root'));
