@@ -71,11 +71,11 @@ function HomePage()
                 </Link>
             </div>
             <Navbar />
-            <Section color='success' image={require('../resources/sec_foto.webp')} title='foto' subtitle='Nabízíme práce forografa' text={fotoText} />
-            <Section color='primary' image={require('../resources/sec_grafika.webp')} title='grafika' subtitle='Nabízíme práce grafika' text={grafikaText} />
-            <Section color='danger' image={require('../resources/sec_redakce.webp')} title='redakce' subtitle='Nabízíme práce korektora' text={redakceText} />
-            <Section color='warning' image={require('../resources/sec_tisk.webp')} title='tisk' subtitle='Nabízíme tiskové služby' text={tiskText} />
-            <Section color='secondary' image={require('../resources/sec_reklama.webp')} title='reklama' subtitle='Nabízíme reklamní služby' text={reklamaText} />
+            <Section color='success' title='foto' subtitle='Nabízíme práce forografa' text={fotoText} />
+            <Section color='primary' title='grafika' subtitle='Nabízíme práce grafika' text={grafikaText} />
+            <Section color='danger' title='redakce' subtitle='Nabízíme práce korektora' text={redakceText} />
+            <Section color='warning' title='tisk' subtitle='Nabízíme tiskové služby' text={tiskText} />
+            <Section color='secondary' title='reklama' subtitle='Nabízíme reklamní služby' text={reklamaText} />
         </MainLayout>
     );
 }

@@ -4,11 +4,11 @@ function Navigation()
 {
     return (
         <div className='Navbar container-fluid pb-5 mb-5 text-center'>
-            <NavbarSection color='success' image={require('../resources/nav_foto.webp')} text='foto' />
-            <NavbarSection color='primary' image={require('../resources/nav_grafika.webp')} text='grafika' />
-            <NavbarSection color='danger' image={require('../resources/nav_redakce.webp')} text='redakce' />
-            <NavbarSection color='warning' image={require('../resources/nav_tisk.webp')} text='tisk' />
-            <NavbarSection color='secondary' image={require('../resources/nav_reklama.webp')} text='reklama' />
+            <NavbarSection color='success' text='foto' />
+            <NavbarSection color='primary' text='grafika' />
+            <NavbarSection color='danger' text='redakce' />
+            <NavbarSection color='warning' text='tisk' />
+            <NavbarSection color='secondary' text='reklama' />
         </div>
     );
 }

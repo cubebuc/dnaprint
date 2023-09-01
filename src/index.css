@@ -44,24 +44,8 @@ html, #root {
     height: 338px;
 }
 
-img.success {
-    filter: hue-rotate(280deg);
-}
-
-img.primary {
-    filter: hue-rotate(160deg);
-}
-
-img.danger {
-    filter: hue-rotate(130deg) saturate(4) brightness(.8);
-}
-
-img.warning {
-    filter: hue-rotate(350deg) saturate(5) brightness(.8);
-}
-
-img.secondary {
-    filter: hue-rotate(-20deg) brightness(.9);
+img {
+    object-fit: cover;
 }
 
 .NavbarSection>div {
