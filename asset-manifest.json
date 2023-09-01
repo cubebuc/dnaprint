@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dnaprint/static/css/main.07c20c8d.css",
-    "main.js": "/dnaprint/static/js/main.a82cac05.js",
+    "main.js": "/dnaprint/static/js/main.03e26825.js",
     "static/media/success.jpg": "/dnaprint/static/media/success.81f9110e00429a74f47d.jpg",
     "static/media/primary.jpg": "/dnaprint/static/media/primary.10937b255a233a0c34b7.jpg",
     "static/media/secondary.jpg": "/dnaprint/static/media/secondary.0a0327ce54bd63d5ff59.jpg",
@@ -10,10 +10,10 @@
     "static/media/arrow.png": "/dnaprint/static/media/arrow.7826f6f9c304475eccdc.png",
     "index.html": "/dnaprint/index.html",
     "main.07c20c8d.css.map": "/dnaprint/static/css/main.07c20c8d.css.map",
-    "main.a82cac05.js.map": "/dnaprint/static/js/main.a82cac05.js.map"
+    "main.03e26825.js.map": "/dnaprint/static/js/main.03e26825.js.map"
   },
   "entrypoints": [
     "static/css/main.07c20c8d.css",
-    "static/js/main.a82cac05.js"
+    "static/js/main.03e26825.js"
   ]
 }
