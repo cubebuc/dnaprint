@@ -75,11 +75,11 @@ img {
     max-width: 800px;
 }
 
-.Header .display-2 {
+.logo {
     transition: 0.2s;
 }
 
-.Header .display-2:hover {
+.logo:hover {
     transform: scale(1.02);
 }
 
