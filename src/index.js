@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import './transitions.css';
 import React from 'react';
-import { render } from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
@@ -11,6 +11,7 @@ import TiskovinyPage from './pages/TiskovinyPage';
 import TiskarnaPage from './pages/TiskarnaPage';
 import Header from './components/Header';
 import Footer from './components/Footer';
+
 
 function App()
 {
@@ -35,5 +36,5 @@ function App()
     );
 }
 
-const Root = () => <BrowserRouter><App /></BrowserRouter>;
-render(<Root />, document.getElementById('root'));
+const root = document.getElementById('root');
+createRoot(root).render(<BrowserRouter><App /></BrowserRouter>);
