@@ -70,7 +70,7 @@ function HomePage()
                 </Link>
             </div>
             <Navbar />
-            <Section color='success' title='foto' subtitle='Nabízíme práce forografa' text={fotoText} />
+            <Section color='success' title='foto' subtitle='Nabízíme práce fotografa' text={fotoText} />
             <Section color='primary' title='grafika' subtitle='Nabízíme práce grafika' text={grafikaText} />
             <Section color='danger' title='redakce' subtitle='Nabízíme práce korektora' text={redakceText} />
             <Section color='warning' title='tisk' subtitle='Nabízíme tiskové služby' text={tiskText} />
