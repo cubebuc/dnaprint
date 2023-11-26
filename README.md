@@ -28,7 +28,7 @@ npm start
 
 ## TODO
 
-- [ ] Responsive design
+- [X] Responsive design
 
 ## License
 
