@@ -17,7 +17,7 @@ function NavbarSection({ color, text })
     const isDesktop = width >= 1200;
 
     return (
-        <HashLink className='NavbarSection d-inline-flex justify-content-center text-decoration-none' smooth to={`#${text}`}>
+        <HashLink className='NavbarSection d-inline-flex justify-content-center text-decoration-none' smooth to={`#${text}-id`}>
             {isDesktop &&
                 <img className='mx-2' src={require(`../resources/${color}.jpg`)} width={180} height={334} alt='' />
             }

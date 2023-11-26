@@ -17,7 +17,7 @@ function Section({ color, title, subtitle, text })
     const isDesktop = width >= 1200;
 
     return (
-        <div className='Section ms-xl-5 p-xl-5 mb-xl-0 mb-5 text-center text-light' id={`${title}`}>
+        <div className='Section ms-xl-5 p-xl-5 mb-xl-0 mb-5 text-center text-light' id={`${title}-id`}>
             <div className='row m-auto'>
                 <div className='col-xl-8'>
                     <img src={require(`../resources/${color}.jpg`)} width={isDesktop ? 804 : width * 0.7} height={isDesktop ? 612 : 612 / 2} alt='' />
